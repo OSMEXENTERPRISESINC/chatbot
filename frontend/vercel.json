@@ -1,6 +1,3 @@
-// Place this file inside your frontend folder:
-// Create or move it to frontend/vercel.json
-
 {
   "rewrites": [
     { "source": "/users", "destination": "/api/users" },
