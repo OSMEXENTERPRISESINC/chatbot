@@ -1,6 +1,11 @@
+// Place this file inside your frontend folder:
+// Create or move it to frontend/vercel.json
+
 {
   "rewrites": [
-    { "source": "/users", "destination": "/api/users" }
+    { "source": "/users", "destination": "/api/users" },
+    { "source": "/dashboard/users", "destination": "/api/users" },
+    { "source": "/:path*/users", "destination": "/api/users" }
   ],
   "redirects": [
     {
