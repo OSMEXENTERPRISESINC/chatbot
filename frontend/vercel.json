@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/users", "destination": "/api/users" }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/dashboard",
+      "permanent": false
+    }
+  ]
+}
